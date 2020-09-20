@@ -37,7 +37,7 @@
 
 .blockquote {
     margin-right: 10px;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .container-fluid {
@@ -85,11 +85,11 @@ a:hover {
 }
 
 .content-block2 {
-    background-image: url('IMG/img02.gif'); 
-    background-attachment: fixed; 
-    background-repeat: no-repeat; 
-    background-size: 100%; 
-    padding-top: 0px; 
+    background-image: url('IMG/img02.gif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 0px;
     padding-bottom: 0px;
 }
 
@@ -105,47 +105,47 @@ a:hover {
 }
 
 .pinned {
-    position: sticky; 
+    position: sticky;
     top: 0;
 }
 
 .blured {
-    background: rgba(255, 255, 255, 0.2); 
+    background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(8px);
 }
 
 .dark-blured {
-    background-color: rgba(0, 0, 0, 0.2); 
+    background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(8px);
 }
 
 .bg-image-animation {
-    background-attachment: fixed; 
-    background-repeat: no-repeat; 
-    background-size: 100%; 
-    padding-top: 0px; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 0px;
     padding-bottom: 0px;
     min-height: 1000px;
 }
 
 .bg-sport {
-    background-image: url('IMG/img03.gif'); 
+    background-image: url('IMG/img03.gif');
 }
 
 .bg-work {
-    background-image: url('IMG/img04.gif'); 
+    background-image: url('IMG/img04.gif');
 }
 
 .bg-procrostination {
-    background-image: url('IMG/img05.gif'); 
+    background-image: url('IMG/img05.gif');
 }
 
 .bg-personal-time {
-    background-image: url('IMG/img06.gif'); 
+    background-image: url('IMG/img06.gif');
 }
 
 .bg-stopwatches {
-    background-image: url('IMG/pic01.png'); 
+    background-image: url('IMG/pic01.png');
 }
 
 .content-block3>.col-lg-12 {
@@ -158,3 +158,57 @@ a:hover {
     z-index: 999;
     width: 100%;
 }
+
+.bold-title {
+    color: white;
+    font-weight: 400;
+}
+
+/* begin clock style */
+
+.clock {
+    text-align: center;
+    background: #35BDC9;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-top: 50px;
+    height: 400px;
+}
+
+.countdown-title {
+    color: #343a40!important;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0px 0px 20px;
+}
+
+.countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+.countdown-number {
+    padding: 10px;
+    border-radius: 3px;
+    background: #00bf96;
+    display: inline-block;
+}
+
+.countdown-time {
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816a;
+    display: inline-block;
+}
+
+.countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+/* end clock style */
