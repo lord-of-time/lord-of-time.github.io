@@ -1,3 +1,7 @@
+html {
+    
+}
+
 .item-light {
     color: rgb(180, 170, 156);
 }
@@ -212,3 +216,14 @@ a:hover {
 }
 
 /* end clock style */
+
+.custom-display-2 {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    
+}
+
+.custom-display-4 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
