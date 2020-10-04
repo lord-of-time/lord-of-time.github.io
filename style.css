@@ -3,8 +3,12 @@
 }
 
 nav>div>img {
-    margin-left: 50px;
+    margin-left: 1rem;
     width: 50px;
+}
+
+.navbar-brand {
+    font-size: 20px;
 }
 
 .item-light {
@@ -35,6 +39,7 @@ nav>div>img {
 .container-fluid {
     padding: 0;
     width: 100%;
+    height: 100%;
 }
 
 .row {
@@ -45,7 +50,7 @@ nav>div>img {
 }
 
 .ul-big {
-    padding-bottom: 2.5rem;
+    padding: 0rem 2rem 2.5rem 2rem;
 }
 
 .ul-big>li {
@@ -59,7 +64,9 @@ nav>div>img {
 }
 
 .content-block1 {
+    padding-top: 50vh;
     background-image: url('IMG/img01.gif');
+    background-position: 0px;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -119,8 +126,12 @@ a:hover {
 .bold-title {
     color: white;
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
+}
+
+.content-title {
+    padding-top: 1.5rem;
 }
 
 .small-bold-title {
@@ -142,15 +153,15 @@ a:hover {
     text-align: center;
     background: #35BDC9;
     font-family: sans-serif;
-    font-weight: 100;
-    padding-top: 2.5rem;
-    height: 23rem;
+    font-weight: 400;
+    padding-top: 3rem;
+    height: 25rem;
 }
 
 .countdown-title {
     color: #343a40!important;
-    font-weight: 100;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 3rem;
     margin: 0px 0px 1rem;
 }
 
@@ -188,6 +199,12 @@ a:hover {
 @media (min-width:100px) {
     :root {
         font-size: 8px;
+    }
+}
+
+@media (min-width:270px) {
+    :root {
+        font-size: 9px;
     }
 }
 
